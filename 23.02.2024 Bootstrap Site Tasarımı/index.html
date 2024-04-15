@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary-subtle bg-gradient  ">
+        <div class="container">
+          <a class="navbar-brand fs-2 fw-bold font-monospace" href="#">BibloAnket</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item fs-4">
+                <a class="nav-link active me-2 " href="#">Testler</a>
+              </li>
+              
+              <li class="nav-item fs-4">
+                <a class="nav-link active me-2" href="#">Kişilikler</a>
+              </li>
+
+              <li class="nav-item fs-4">
+                <a class="nav-link active me-2" href="#">İletişim</a>
+              </li>
+              
+              <form class="d-flex" role="search">
+                <input class="form-control me-2 input-search" type="search" placeholder="Anket Ara" aria-label="Anket Ara">
+                <button class="btn btn-light width-150" type="submit">Anket Ara</button>
+              </form>
+
+            </ul>
+            <form class="d-flex" role="uye">
+              <button   class="btn btn-light me-4 " type="submit">Üye Ol</button>
+              
+              <button class="btn btn-light " type="submit">Giriş Yap</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselId" class="carousel slide mt-0" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="First slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="1"
+            aria-label="Second slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="2"
+            aria-label="Third slide"
+          ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+              src="./img/carousel1.jpg"
+              class="w-100 d-block slider-heigth"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+            src="./img/carousel1.jpg"
+              class="w-100 d-block slider-heigth"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+            src="./img/carousel1.jpg"
+              class="w-100 d-block slider-heigth"
+              alt="Third slide"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="">
+              <div class="card text-center bn img-size align-items-center" style="width: 18rem;">
+                <img src="./img/soruişareti.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Rastgele</h5>
+                      <p class="card-text">Herhangi bir ankete katılmak istiyorsanız tıklayın.</p>
+                  </div>
+              </div> 
+            </a>  
+              
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <div class="card text-center bn img-size align-items-center" style="width: 18rem; ">
+                  <img src="./img/gender-book-genre-button.jpg " class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Cinsiyet Testi</h5>
+                    <p class="card-text">Hangi Cinsiyetsiniz öğrenmek istiyorsanız tıklayın.</p>
+                  </div>
+                </div>
+              </a>
+              
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <div class="card text-center bn img-size align-items-center" style="width: 18rem;">
+                <img src="./img/aptitude-iq-button.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">IQ Testi</h5>
+                  <p class="card-text">IQ derecenizin ne olduğunu öğrenmek istiyorsanız tıklayın.</p>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <div class="card text-center bn img-size align-items-center" style="width: 18rem;">
+                  <img src="./img/political-coordinates-button.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Politik Test</h5>
+                    <p class="card-text">Bu ücretsiz siyasi gözlem testi, Batı demokrasilerinde bulunan iki önemli siyasi ölçekte puanlarınızı almanızı sağlayacaktır</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <div class="card text-center bn img-size align-items-center" style="width: 18rem;">
+                  <img src="./img/6-minute-sadism-button-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Politik Test</h5>
+                    <p class="card-text">Sadizm, kendini geliştirme aracı olarak başkalarına karşı saldırgan davranma ve/veya onları aşağılama eğilimidir.</p>
+  
+                  </div>
+                </div>
+              </a>
+              
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <div class="card text-center bn img-size align-items-center" style="width: 18rem;">
+                  <img src="./img/3-minute-narcissism-button-1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Politik Test</h5>
+                    <p class="card-text">Dr. Robert Raskin'in (Ph.D.) çalışmasına dayanmaktadır. ve Dr. Calvin Hall, Ph.D.</p>
+  
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+             <a href=""><div class="card text-center bn img-size align-items-center " style="width: 18rem;">
+              <img src="./img/capacity-to-love-card.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Politik Test</h5>
+                <p class="card-text">Sevme Kapasitesi Testi, Dr. Nestor D. Kapusta, MD ve meslektaşları tarafından geliştirilmiştir.
+                </p>
+              </div>
+            </div></a> 
+            </div>
+            <div class="col-md-3">
+              <a href="">
+                <div class="card text-center bn img-size align-items-center" style="width: 18rem;">
+                  <img src="./img/otizm.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Otizm Testi</h5>
+                    <p class="card-text">Bu test, size 10 farklı alanda otizm spektrumu oluşumlarını ölçen tek bir bileşik test sunmak için otizm spektrumunu araştırmaya yönelik önceki birkaç çalışmanın içgörülerini birleştirir.</p>
+                    
+                  </div>
+                </div>
+              </a>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>

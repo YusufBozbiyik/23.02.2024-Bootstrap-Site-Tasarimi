@@ -1,0 +1,24 @@
+a{
+    color:black;
+    text-decoration: none;
+}
+.pd{
+    padding: 20px 0;
+}
+
+.width-150{
+    width: 150px;
+}
+
+.slider-heigth{
+    height:500px ;
+}
+
+.bn{
+    border: none;
+}
+
+.img-size img{
+    width: 100px;
+    height: 100px;
+}
